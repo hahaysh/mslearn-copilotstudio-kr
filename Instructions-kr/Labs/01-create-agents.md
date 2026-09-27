@@ -62,7 +62,7 @@ lab:
 
 이 연습에서는 템플릿을 사용하여 에이전트를 만든 다음 테스트합니다.
 
-### 작업 1.1 – Safe Travels 템플릿에서 에이전트 만들기
+### 작업 1.1 – Safe Travels(안전한 이동) 템플릿에서 에이전트 만들기
 
 1. **Copilot Studio** 홈페이지 `https://copilotstudio.microsoft.com/`로 이동합니다.
 

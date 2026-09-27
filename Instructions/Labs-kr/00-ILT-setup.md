@@ -47,7 +47,7 @@ lab:
    - **새 기능 미리 사용(Get new features early)**: No
    - **대신 만들기(Create on behalf)**: No
    - **Dataverse 데이터 저장소를 추가하시겠습니까?(Add a Dataverse data store?)**: Yes
-   
+
 1. **다음(Next)**을 선택하고 **Dataverse 추가(Add Dataverse)** 섹션에서 다음과 같이 설정합니다.
 
    - **언어(Language)**: English (United States)
@@ -63,7 +63,7 @@ lab:
 
 1. 새 브라우저 탭에서 `https://copilotstudio.microsoft.com/`로 이동하고, 메시지가 표시되면 로그인합니다.
 
-   > [!NOTE]  
+   > [!NOTE]
    > 해당 환경에서 Copilot Studio를 불러오는 데 문제가 있는 경우:
    > - 먼저 Power Platform 관리 센터에서 환경 ID(GUID)를 확인합니다.
    >   1. `https://admin.powerplatform.microsoft.com/manage/environments`에서 만든 환경을 엽니다.

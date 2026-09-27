@@ -36,7 +36,7 @@ lab:
 - Microsoft Teams에 메시지를 보내는 워크플로 만들기
 - 워크플로를 에이전트에 도구로 추가
 - 워크플로를 만들어 토픽에 추가
-  
+
 ## 필수 구성 요소
 
 - Microsoft Entra ID 계정
@@ -47,7 +47,7 @@ lab:
   - **ILT Setup** 실습에서 만든 환경과 **Lab Exercises** 솔루션
   - 직접 보유한 기존 환경과 솔루션
 - 환경과 솔루션이 아직 준비되지 않은 경우 계속하기 전에 **ILT Setup** 실습의 단계를 완료합니다.
-  
+
 > [!IMPORTANT]
 > 현재 미리 보기로 제공되는 새로운 Copilot Studio 환경이 표시될 수 있습니다. 이 실습에서는 현재 Copilot Studio 인터페이스를 사용하므로 일부 단계와 스크린샷이 미리 보기 환경과 일치하지 않을 수 있습니다. 실습 지침을 원활하게 진행하려면 연습 전체에서 클래식 Copilot Studio UI 환경을 사용합니다.
 
@@ -216,7 +216,7 @@ lab:
    - **설명(Description)**: **`Please sign in to notify Teams`(Teams에 알림을 보내려면 로그인하세요)**
 
 1. **입력(Inputs)** 섹션의 *채우기 방법(Fill using)*에서 **AI를 사용하여 동적으로 채우기(Dynamically fill with AI)**를 선택합니다.
-  
+
    그러면 에이전트가 대화 컨텍스트에서 적절한 입력값을 동적으로 결정할 수 있습니다.
 
 1. **완료(Completion)** 섹션의 **실행 후(After running)**에서 **생성형 AI로 응답 작성(Write the response with generative AI)**을 선택합니다.
@@ -259,14 +259,14 @@ lab:
    ```prompt
    # 목적
    이 에이전트의 목적은 작업을 분석하고 분류하며 우선순위를 지정하고, 분석 요약을 Microsoft Teams 채널로 보내는 것입니다.
-   
+
    # 일반 지침
    - 전문적이고 지원적인 어조를 유지합니다.
    - 항상 아래 나열된 토픽과 도구를 사용합니다. 자체 지식을 바탕으로 답변하지 않습니다.
-   
+
    # 기술
    - <Send Summary to Teams> 도구를 사용하여 작업 분석 요약을 Microsoft Teams에 게시합니다.
-   
+
    # 단계별 지침
    1. 작업 분석
       - 사용자가 제공한 작업을 분류하고 우선순위를 지정합니다.

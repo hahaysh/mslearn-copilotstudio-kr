@@ -50,7 +50,7 @@ lab:
   - **ILT Setup** 실습에서 만든 환경 및 **Lab Exercises** 솔루션 또는
   - 기존 환경 및 솔루션
 - 환경과 솔루션이 아직 준비되지 않았다면 계속하기 전에 **ILT Setup** 실습의 단계를 완료합니다.
-  
+
 > [!IMPORTANT]
 > 현재 미리 보기로 제공되는 새로운 Copilot Studio 환경이 표시될 수 있습니다. 이 실습에서는 현재 Copilot Studio 인터페이스를 사용하므로 일부 단계와 스크린샷이 미리 보기 환경과 일치하지 않을 수 있습니다. 실습 지침을 원활하게 진행하려면 연습 전체에서 Copilot Studio 클래식 UI 환경을 사용합니다.
 
@@ -206,8 +206,8 @@ lab:
 
    ```powerfx
    {
-   type: "AdaptiveCard", 
-       body: 
+   type: "AdaptiveCard",
+       body:
        [
            {
                type: "TextBlock",
@@ -217,7 +217,7 @@ lab:
            },
            {
                type: "FactSet",
-               facts: 
+               facts:
                [
                    {
                        title: "Full Name",

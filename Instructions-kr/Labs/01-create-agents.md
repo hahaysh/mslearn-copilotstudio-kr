@@ -86,7 +86,7 @@ lab:
 
 1. **개요(Overview)** 탭에서 이름, 설명 및 에이전트 지침을 검토합니다.
 
-1. **지식(Knowledge)** 탭을 선택하고 지식 원본으로 추가된 공개 웹 사이트를 검토합니다.
+1. **참조 자료(Knowledge)** 탭을 선택하고 참조 자료로 추가된 공개 웹 사이트를 검토합니다.
 
 1. 페이지 오른쪽 위에서 **설정(Settings)** 단추를 선택합니다.
 
@@ -240,11 +240,11 @@ lab:
 
 ### 작업 2.3 – 공개 웹 사이트를 지식 원본으로 추가
 
-1. **지식(Knowledge)** 탭을 선택합니다.
+1. **참조 자료(Knowledge)** 탭을 선택합니다.
 
    ![Copilot Studio 포털의 지식 탭입니다.](../media/knowledge-tab.png)
 
-1. **+ 지식 추가(+ Add knowledge)**를 선택합니다.
+1. **+ 참조 자료 추가(+ Add knowledge)**를 선택합니다.
 
 1. **공개 웹 사이트(Public websites)**를 선택합니다.
 
@@ -265,7 +265,7 @@ lab:
 
 1. 페이지 오른쪽 위에서 **설정(Settings)** 단추를 선택합니다.
 
-1. **오케스트레이션(Orchestration)**이 **`Yes - Responses will be dynamic, using available tools and knowledge as appropriate`(예 - 사용 가능한 도구와 지식을 적절히 사용하여 동적으로 응답합니다)**로 설정되어 있는지 확인합니다.
+1. **오케스트레이션(Orchestration)**이 **`Yes - Responses will be dynamic, using available tools and knowledge as appropriate`(예 - 응답은 사용 가능한 도구와 참조 자료를 적절히 활용해 동적으로 진행됩니다.)**로 설정되어 있는지 확인합니다.
 
 1. **응답(Responses)** 섹션에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
@@ -299,7 +299,7 @@ lab:
 
 1. **테스트(Test)** 창이 보이지 않으면 페이지 오른쪽 위의 **테스트(Test)** 아이콘을 선택합니다.
 
-1. **테스트(Test)** 창에서 변수 **{x}** 아이콘 옆의 줄임표(**...**)를 선택하고 **테스트 시 활동 맵 표시(Show activity map when testing)**를 **켜기(On)**로, **토픽 간 추적(Track between topics)**을 **끄기(Off)**로 전환합니다.
+1. **테스트(Test)** 창에서 변수 **{x}** 아이콘 옆의 줄임표(**...**)를 선택하고 **테스트 시 활동 지도 표시(Show activity map when testing)**를 **켜기(On)**로, **토픽 간 추적(Track between topics)**을 **끄기(Off)**로 전환합니다.
 
    ![활동 맵 표시를 설정합니다.](../media/show-activity-map.png)
 

@@ -74,7 +74,7 @@ lab:
 
 1. 페이지 위쪽에서 이 연습에 사용할 환경에서 작업 중인지 확인합니다.
 
-1. **에이전트 템플릿으로 시작(Start with an agent template)** 섹션에서 **Safe Travels** 템플릿을 선택합니다.
+1. **에이전트 템플릿으로 시작(Start with an agent template)** 섹션에서 **Safe Travels(안전한 이동)** 템플릿을 선택합니다.
 
    ![Safe Travels 템플릿입니다.](../media/select-template.png)
 

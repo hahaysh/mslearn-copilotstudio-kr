@@ -85,6 +85,30 @@ def outside_fences(text: str) -> str:
     return "\n".join(output)
 
 
+def preserved_code_values(text: str) -> list[str]:
+    values: list[str] = []
+    lines = text.splitlines()
+    index = 0
+    while index < len(lines):
+        match = FENCE_START.match(lines[index])
+        if not match:
+            values.extend(INLINE_CODE.findall(lines[index]))
+            index += 1
+            continue
+
+        ticks, language = match.groups()
+        closing = re.compile(r"^\s*" + re.escape(ticks) + r"\s*$")
+        index += 1
+        body: list[str] = []
+        while index < len(lines) and not closing.match(lines[index]):
+            body.append(lines[index])
+            index += 1
+        if language == "prompt":
+            values.append("\n".join(body).strip())
+        index += 1
+    return values
+
+
 def is_subsequence(source: list[object], target: list[object]) -> bool:
     position = 0
     for item in source:
@@ -198,8 +222,8 @@ def validate(
             errors.append(f"{label}: an original fenced block changed or moved")
 
         source_inline = INLINE_CODE.findall(outside_fences(source))
-        target_inline = INLINE_CODE.findall(outside_fences(target))
-        if not is_subsequence(source_inline, target_inline):
+        target_code_values = preserved_code_values(target)
+        if not is_subsequence(source_inline, target_code_values):
             errors.append(f"{label}: an original inline-code value changed or moved")
 
         korean_prompts = [

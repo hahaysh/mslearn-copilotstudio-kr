@@ -137,7 +137,7 @@ lab:
 
 1. **토픽 이름 지정(Name your topic)** 텍스트 상자에 **`Customer Details`(고객 세부 정보)** 를 입력합니다.
 
-1. **다음을 수행하는 토픽 만들기(Create a topic to...)** 텍스트 상자의 원본 영문 입력 값은 `Ask the customer for their name and email address`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **다음을 수행하는 토픽 만들기(Create a topic to...)** 텍스트 상자에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    Ask the customer for their name and email address
@@ -163,7 +163,7 @@ lab:
 
    ![Copilot으로 편집 아이콘의 스크린샷.](../media/copilot-email-address-node.png)
 
-1. **Copilot으로 편집(Edit with Copilot)** 패널의 **수행할 작업(What do you want to do?)** 필드에 입력할 원본 영문 값은 `Change "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **Copilot으로 편집(Edit with Copilot)** 패널의 **수행할 작업(What do you want to do?)** 필드에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    Change "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.
@@ -190,7 +190,7 @@ lab:
 
 1. 노드가 선택되지 않도록 제작 캔버스의 빈 영역을 선택합니다.
 
-1. **Copilot으로 편집(Edit with Copilot)** 패널의 **수행할 작업(What do you want to do?)** 필드에 입력할 원본 영문 값은 `Summarize the information collected in an adaptive card`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **Copilot으로 편집(Edit with Copilot)** 패널의 **수행할 작업(What do you want to do?)** 필드에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    Summarize the information collected in an adaptive card
@@ -251,7 +251,7 @@ lab:
 
 1. **Copilot** 아이콘을 선택하여 **Copilot으로 편집(Edit with Copilot)** 창을 다시 엽니다.
 
-1. **수행할 작업(What do you want to do?)** 필드에 입력할 원본 영문 값은 `Add a new multiple choice question to prompt the user if the details are correct with two options Yes or No`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **수행할 작업(What do you want to do?)** 필드에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    Add a new multiple choice question to prompt the user if the details are correct with two options Yes or No
@@ -303,7 +303,7 @@ lab:
 
 1. **이름(Name)** 필드에 **`Estimate Repair`(수리 견적)** 를 입력합니다.
 
-1. **모델 설명(Model description)** 필드에 입력할 원본 영문 값은 `Use this topic when a repair estimate for an insurance claim must be booked with the customer`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **모델 설명(Model description)** 필드에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    Use this topic when a repair estimate for an insurance claim must be booked with the customer
@@ -330,7 +330,7 @@ lab:
 
    ![노드를 추가하는 스크린샷.](../media/add-message-node.png)
 
-1. **메시지 입력(Enter a message)** 필드에 입력할 원본 영문 값은 `Hi, I can help you with booking a repair estimate.`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **메시지 입력(Enter a message)** 필드에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    Hi, I can help you with booking a repair estimate.
@@ -370,7 +370,7 @@ lab:
 
 1. 왼쪽 **조건(Condition)** 노드 아래의 **+** 아이콘을 선택한 다음 **질문하기(Ask a question)** 를 선택합니다.
 
-1. **메시지 입력(Enter a message)** 필드에 입력할 원본 영문 값은 `What date and time would you like to book the repair estimate?`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **메시지 입력(Enter a message)** 필드에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    What date and time would you like to book the repair estimate?
@@ -386,7 +386,7 @@ lab:
 
 1. 왼쪽 **질문(Question)** 노드 아래의 **+** 아이콘을 선택한 다음 **메시지 보내기(Send a message)** 를 선택합니다.
 
-1. **메시지 입력(Enter a message)** 필드에 입력할 원본 영문 값은 `Great! Let me get that scheduled for you.`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **메시지 입력(Enter a message)** 필드에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    Great! Let me get that scheduled for you.
@@ -426,7 +426,7 @@ lab:
 
 1. **테스트 창(Test pane)** 위쪽에서 **새 테스트 세션 시작(Start new test session)** 아이콘 **+**를 선택합니다.
 
-1. **Conversation Start** 메시지가 표시되면 에이전트가 대화를 시작합니다. 토픽을 트리거할 원본 영문 입력 값은 `I need to book a repair estimate`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **Conversation Start** 메시지가 표시되면 에이전트가 대화를 시작합니다. 토픽을 트리거하려면 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 
    ```prompt
    I need to book a repair estimate

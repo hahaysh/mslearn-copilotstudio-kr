@@ -150,11 +150,11 @@ lab:
 
 1. 연습 2에서 만든 에이전트가 있는 **Copilot Studio** 브라우저 탭으로 돌아갑니다.
 
-1. **지식(Knowledge)** 탭을 선택하여 에이전트에 정의된 지식 원본을 확인합니다. 현재는 아무것도 없어야 합니다.
+1. **참조 자료(Knowledge)** 탭을 선택하여 에이전트에 정의된 지식 원본을 확인합니다. 현재는 아무것도 없어야 합니다.
 
    ![Copilot Studio 지식 페이지의 스크린샷.](../media/knowledge-page.png)
 
-1. **+ 지식 추가(+ Add knowledge)** 를 선택하고 에이전트에 추가할 수 있는 여러 유형의 지식 원본을 확인합니다.
+1. **+ 참조 자료 추가(+ Add knowledge)** 를 선택하고 에이전트에 추가할 수 있는 여러 유형의 지식 원본을 확인합니다.
 
    ![Copilot Studio에서 사용할 수 있는 지식 원본의 스크린샷.](../media/knowledge-sources.png)
 
@@ -165,11 +165,11 @@ lab:
 > [!NOTE]
 > 파일을 업로드하면 Copilot Studio가 인덱싱을 시작합니다. 이 작업에는 10분 이상 걸릴 수 있으므로 다음 연습을 마친 후 다시 확인합니다.
 
-### 작업 3.2 – 공개 웹 사이트를 지식 원본으로 추가
+### 작업 3.2 – 공개 웹 사이트를 참조 자료 원본으로 추가
 
-1. Copilot Studio 에이전트에서 **지식(Knowledge)** 탭을 선택합니다.
+1. Copilot Studio 에이전트에서 **참조 자료(Knowledge)** 탭을 선택합니다.
 
-1. **+ 지식 추가(+ Add knowledge)** 를 선택합니다.
+1. **+ 참조 자료 추가(+ Add knowledge)** 를 선택합니다.
 
 1. **공개 웹 사이트(Public websites)** 를 선택합니다.
 
@@ -177,7 +177,7 @@ lab:
 
 1. **추가(Add)** 를 선택합니다.
 
-1. **이름(Name)** 에 **`Travel, Gift, and Car Expenses | Internal Revenue Service`(출장, 선물 및 자동차 경비 | 미국 국세청)** 를 입력합니다.
+1. **이름(Name)** 에 `Travel, Gift, and Car Expenses | Internal Revenue Service`(출장, 선물 및 자동차 경비 | 미국 국세청)를 입력합니다.
 
 1. **설명(Description)** 에 입력할 원본 영문 값은 `This knowledge source contains information on reimbursement of travel expenses.`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
 

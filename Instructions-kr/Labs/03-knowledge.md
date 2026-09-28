@@ -212,7 +212,7 @@ lab:
 
 ### 작업 3.4 – Dataverse 지식 원본 구성
 
-1. Copilot Studio 에이전트에서 **지식(Knowledge)** 탭을 선택합니다.
+1. Copilot Studio 에이전트에서 **참조 자료(Knowledge)** 탭을 선택합니다.
 
 1. Dataverse 테이블의 줄임표(**⋮**)를 선택한 다음 **편집(Edit)** 을 선택합니다.
 

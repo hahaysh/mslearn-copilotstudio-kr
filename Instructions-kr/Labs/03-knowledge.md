@@ -254,7 +254,7 @@ lab:
 
 업로드한 파일의 인덱싱이 완료되었는지 확인합니다. 인덱싱이 아직 진행 중이면 몇 분 기다렸다가 페이지를 새로 고친 후 계속합니다.
 
-1. **지식(Knowledge)** 탭을 선택합니다.
+1. **참조 자료(Knowledge)** 탭을 선택합니다.
 
 1. 업로드한 파일의 **상태(Status)** 를 확인합니다. 아직 **진행 중(In progress)** 이면 **준비됨(Ready)** 이 될 때까지 몇 분마다 새로 고칩니다.
 
@@ -322,11 +322,11 @@ lab:
 
 1. 에이전트 페이지 오른쪽 위에서 **설정(Settings)** 단추를 선택합니다.
 
-1. **오케스트레이션(Orchestration)** 이 **예 - 사용 가능한 도구와 지식을 적절히 사용하여 동적으로 응답합니다(Yes - Responses will be dynamic, using available tools and knowledge as appropriate)** 로 설정되어 있는지 확인합니다.
+1. **오케스트레이션(Orchestration)** 이 **예 - 응답은 사용 가능한 도구와 참조 자료를 적절히 활용해 동적으로 진행됩니다.(Yes - Responses will be dynamic, using available tools and knowledge as appropriate)** 로 설정되어 있는지 확인합니다.
 
-1. **지식(Knowledge)** 섹션에서 **기반이 없는 응답 허용(Allow ungrounded responses)** 을 **끔(Off)** 으로 설정합니다.
+1. **지식(Knowledge)** 섹션에서 **근거 없는 응답 허용하기(Allow ungrounded responses)** 을 **끔(Off)** 으로 설정합니다.
 
-1. **지식(Knowledge)** 섹션에서 **웹 정보 사용(Use information from the Web)** 을 **끔(Off)** 으로 설정합니다.
+1. **지식(Knowledge)** 섹션에서 **웹의 정보 사용(Use information from the Web)** 을 **끔(Off)** 으로 설정합니다.
 
    ![에이전트의 지식 설정 스크린샷.](../media/knowledge-agent-settings.png)
 
@@ -335,6 +335,14 @@ lab:
 1. 설정 페이지 오른쪽 위에서 **X**를 선택하여 설정을 닫습니다.
 
 1. 이전 연습의 프롬프트를 사용하여 에이전트를 테스트합니다. 파일 및 Dataverse 지식 원본은 사용되지만 응답을 생성할 때 공개 웹 사이트는 사용되지 않습니다.
+
+   ```prompt
+   What are the limits for incidental expenses?
+   ```
+
+   ```prompt
+   부대 경비의 한도는 얼마인가요?
+   ```
 
 ### 작업 4.2 – 생성형 답변 노드 구성
 
@@ -405,7 +413,7 @@ lab:
 
 1. 페이지 오른쪽 위에서 **테스트(Test)** 아이콘을 선택하여 테스트 창을 엽니다.
 
-1. **테스트(Test)** 창에서 변수 **{x}** 아이콘 옆의 줄임표(**...**)를 선택하고 **테스트할 때 활동 맵 표시(Show activity map when testing)** 가 **끔(Off)** 으로, **토픽 간 추적(Track between topics)** 이 **켬(On)** 으로 설정되어 있는지 확인합니다.
+1. **테스트(Test)** 창에서 변수 **{x}** 아이콘 옆의 줄임표(**...**)를 선택하고 **테스트할 때 활동 맵 표시(Show activity map when testing)**를 **끔(Off)** 으로, **토픽 간 추적(Track between topics)**은 **켬(On)** 으로 설정되어 있는지 확인합니다.
 
 1. **테스트(Test)** 창 위쪽에서 **새 테스트 세션 시작(Start new test session)** 아이콘 **+**를 선택합니다.
 
@@ -456,7 +464,7 @@ lab:
 
 1. **Microsoft 365 및 Microsoft Teams(Microsoft 365 and Microsoft Teams)** 타일을 선택합니다.
 
-1. **Microsoft 365 Copilot에서 에이전트를 사용할 수 있도록 설정(Make agent available in Microsoft 365 Copilot)** 을 선택 취소합니다.
+1. **Microsoft 365 Copilot에서 에이전트이 사용 가능하도록 설정(Make agent available in Microsoft 365 Copilot)** 을 선택 취소합니다.
 
 1. **채널 추가(Add channel)** 를 선택합니다.
 

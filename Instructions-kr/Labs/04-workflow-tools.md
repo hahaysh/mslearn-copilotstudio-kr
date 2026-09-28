@@ -198,7 +198,7 @@ lab:
 
 1. **+ 도구 추가(+ Add a tool)**를 선택합니다. 일부 환경에서는 이 옵션이 **+ 새 도구(+ New tool)**로 표시됩니다.
 
-1. **도구 추가(Add tool)** 대화 상자에서 **흐름(Flow)** 필터를 선택합니다.
+1. **도구 추가(Add tool)** 대화 상자에서 **워크플로(Flow)** 필터를 선택합니다.
 
    ![워크플로를 도구로 추가하는 화면의 스크린샷.](../media/workflow-add-tool.png)
 
@@ -406,7 +406,7 @@ lab:
 
 1. **텍스트(Text)**를 선택합니다.
 
-1. *입력(Input)*에 `Priority`를 입력하고 *입력을 입력하세요(Please enter your input)*에 **`Priority of Tasks`(작업 우선순위)**를 입력합니다.
+1. *입력(Input)*에 `Priority`(우선순위)를 입력하고 *입력을 입력하세요(Please enter your input)*에 **`Priority of Tasks`(작업 우선순위)**를 입력합니다.
 
 1. 페이지 오른쪽 위 근처에서 **초안 저장(Save draft)**을 선택합니다.
 
@@ -442,7 +442,7 @@ lab:
 
    ![워크플로에 있는 Excel 작업의 스크린샷.](../media/onedrive-action.png)
 
-1. **모두 표시(Show all)**를 선택합니다.
+1. **모두 보기(Show all)**를 선택합니다.
 
 1. **필터 쿼리(Filter query)**에 `Priority eq ''`를 입력합니다.
 
@@ -492,7 +492,7 @@ lab:
    ```
 
    ```prompt
-   High, Medium, Low가 포함된 목록에서 우선순위를 선택하도록 사용자에게 요청합니다.
+   높음, 보통, 낮음 이 포함된 목록에서 우선순위를 선택하도록 사용자에게 요청합니다.
    ```
 
 1. **만들기(Create)**를 선택합니다.
@@ -517,7 +517,7 @@ lab:
 
 1. **+ 도구 추가(+ Add a tool)**를 선택합니다.
 
-1. **도구 추가(Add tool)** 대화 상자에서 **흐름(Flow)** 필터를 선택합니다.
+1. **도구 추가(Add tool)** 대화 상자에서 **워크플로(Flow)** 필터를 선택합니다.
 
 1. **`Get Task List`(작업 목록 가져오기)** 워크플로를 선택합니다.
 
@@ -532,11 +532,6 @@ Retrieves a list of tasks for a specified priority
 ```prompt
 지정한 우선순위의 작업 목록 검색
 ```
-
-```text
-지정한 우선순위의 작업 목록 검색
-```
-
 
 1. **추가 세부 정보(Additional details)**를 펼친 후 다음 항목을 선택하거나 입력합니다.
 
@@ -573,24 +568,24 @@ Retrieves a list of tasks for a specified priority
 
 1. **지침(Instructions)** 섹션에서 **편집(Edit)**을 선택합니다.
 
-1. *# Skills* 섹션에 새 줄을 추가하고 `- Use the `를 입력한 다음 `/`를 입력하고 **`Priority Tasks`(우선순위 작업)** 토픽을 선택한 후 ` topic to get the task list.`를 입력합니다. 완성되는 지침은 다음과 같습니다. 한국어 지침을 사용하는 경우에도 `<Priority Tasks>` 자리 표시자는 입력하지 않고 `/`를 사용하여 토픽 참조를 삽입합니다.
+1. *# Skills*(기술) 섹션에 새 줄을 추가하고 `- Use the `를 입력한 다음 `/`를 입력하고 **`Priority Tasks`(우선순위 작업)** 토픽을 선택한 후 `topic to get the task list.`를 입력합니다. 완성되는 지침은 다음과 같습니다. 한국어 지침을 사용하는 경우에도 `<우선순위 작업>` 자리 표시자는 입력하지 않고 `/`를 사용하여 토픽 참조를 삽입합니다.
 
    ```prompt
    - Use the <Priority Tasks> topic to get the task list.
    ```
 
    ```prompt
-   - <Priority Tasks> 토픽을 사용하여 작업 목록을 가져옵니다.
+   - <우선순위 작업> 토픽을 사용하여 작업 목록을 가져옵니다.
    ```
 
-1. *# Step-by-step instructions* 섹션의 **1. Analyze tasks** 아래에 새 줄을 추가하고 `- Use the `를 입력한 다음 `/`를 입력하고 **`Priority Tasks`(우선순위 작업)** 토픽을 선택한 후 ` topic to get the task list.`를 입력합니다. 완성되는 지침은 다음과 같습니다. 한국어 지침을 사용하는 경우에도 `<Priority Tasks>` 자리 표시자는 입력하지 않고 `/`를 사용하여 토픽 참조를 삽입합니다.
+1. *# Step-by-step instructions*(단계별 지침) 섹션의 **1. Analyze tasks**(작업 분석) 아래에 새 줄을 추가하고 `- Use the `를 입력한 다음 `/`를 입력하고 **`Priority Tasks`(우선순위 작업)** 토픽을 선택한 후 `topic to get the task list.`를 입력합니다. 완성되는 지침은 다음과 같습니다. 한국어 지침을 사용하는 경우에도 `<우선순위 작업>` 자리 표시자는 입력하지 않고 `/`를 사용하여 토픽 참조를 삽입합니다.
 
    ```prompt
    - Use the <Priority Tasks> topic to get the task list.
    ```
 
    ```prompt
-   - <Priority Tasks> 토픽을 사용하여 작업 목록을 가져옵니다.
+   - <우선순위 작업> 토픽을 사용하여 작업 목록을 가져옵니다.
    ```
 
 1. **저장(Save)**을 선택합니다.

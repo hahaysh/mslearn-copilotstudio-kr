@@ -613,7 +613,7 @@ Retrieves a list of tasks for a specified priority
    > [!NOTE]
    > 에이전트가 **`Priority Tasks`(우선순위 작업)** 토픽을 열지 않고 답변하는 경우 **개요(Overview)** 탭에서 에이전트 지침에 **`Priority Tasks`(우선순위 작업)** 토픽과 **`Send Summary to Teams`(Teams에 요약 보내기)** 도구가 삽입된 참조로 포함되어 있는지 확인한 다음 새 테스트 세션을 시작합니다.
 
-1. **Medium**을 선택합니다.
+1. **Medium**(보통)을 선택합니다.
 
 1. **Excel Online (Business)**에 연결하라는 메시지가 표시되면 **허용(Allow)**을 선택합니다.
 

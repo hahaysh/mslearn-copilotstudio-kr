@@ -143,7 +143,7 @@ lab:
 
 1. 워크플로의 두 단계 사이에서 **+** 아이콘을 선택하여 새 작업을 삽입합니다.
 
-1. **검색(Search)** 필드에 `Teams`를 입력하고 **Microsoft Teams** 커넥터에서 **더 보기(See more)**를 선택합니다.
+1. **검색(Search)** 필드에 `Teams`를 입력하고 **Microsoft Teams** 커넥터에서 **자세히 보기(See more)**를 선택합니다.
 
    ![워크플로에서 커넥터를 검색하는 화면의 스크린샷.](../media/workflow-teams-connector.png)
 
@@ -210,8 +210,8 @@ lab:
 
 1. **추가 세부 정보(Additional details)**를 펼친 후 다음 항목을 선택하고 입력합니다.
 
-   - **이 도구를 사용할 수 있는 시기(When this tool may be used)**: 에이전트가 언제든지 이 도구를 사용할 수 있음(Agent may use this tool at any time)
-   - **실행하기 전에 최종 사용자에게 확인(Ask the end user before running)**: 아니요(No)
+   - **이 도구를 사용할 수 있는 경우(When this tool may be used)**: 에이전트가 언제든지 이 도구를 사용할 수 있음(Agent may use this tool at any time)
+   - **실행하기 전에 최종 사용자에게 질문합니다(Ask the end user before running)**: 아니요(No)
    - **사용할 자격 증명(Credentials to use)**: 최종 사용자 자격 증명(End user credentials)
    - **설명(Description)**: **`Please sign in to notify Teams`(Teams에 알리려면 로그인하세요)**
 
@@ -290,9 +290,13 @@ lab:
 
 1. **대화 시작(Conversation Start)** 메시지가 표시되면 에이전트가 대화를 시작합니다. 응답으로 다음 내용을 입력하여 만든 토픽을 트리거해 봅니다.
 
-   `Analyze this list of tasks 1. Build an agent, 2. Test an agent, 3. Deploy an agent`
+   ```prompt
+   Analyze this list of tasks 1. Build an agent, 2. Test an agent, 3. Deploy an agent
+   ```
 
-   위 입력은 "이 작업 목록을 분석하세요. 1. 에이전트 빌드, 2. 에이전트 테스트, 3. 에이전트 배포"를 의미합니다.
+   ```prompt
+   다음 작업 목록을 분석하세요. 1. 에이전트 구축, 2. 에이전트 테스트, 3. 에이전트 배포.
+   ```
 
 1. Microsoft Teams에 연결하라는 메시지가 표시되면 **허용(Allow)**을 선택합니다.
 
@@ -420,7 +424,7 @@ lab:
 
 1. 워크플로의 두 단계 사이에서 **+** 아이콘을 선택하여 새 작업을 삽입합니다.
 
-1. **검색(Search)** 필드에 `Excel`을 입력하고 **Excel Online (Business)** 커넥터에서 **더 보기(See more)**를 선택합니다.
+1. **검색(Search)** 필드에 `Excel`을 입력하고 **Excel Online (Business)** 커넥터에서 **자세히 보기(See more)**를 선택합니다.
 
 1. **테이블에 있는 행 나열(List rows present in a table)** 작업을 선택합니다.
 

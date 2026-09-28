@@ -179,7 +179,7 @@ lab:
 
 1. **이름(Name)** 에 `Travel, Gift, and Car Expenses | Internal Revenue Service`(출장, 선물 및 자동차 경비 | 미국 국세청)를 입력합니다.
 
-1. **설명(Description)** 에 입력할 원본 영문 값은 `This knowledge source contains information on reimbursement of travel expenses.`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **설명(Description)** 에 다음 영문 또는 한국어 값 중 하나를 입력합니다.
 
    ```prompt
    This knowledge source contains information on reimbursement of travel expenses.
@@ -196,9 +196,9 @@ lab:
 
 ### 작업 3.3 – Dataverse 테이블을 지식 원본으로 추가
 
-1. Copilot Studio 에이전트에서 **지식(Knowledge)** 탭을 선택합니다.
+1. Copilot Studio 에이전트에서 **참조 자료(Knowledge)** 탭을 선택합니다.
 
-1. **+ 지식 추가(+ Add knowledge)** 를 선택합니다.
+1. **+ 참조 자료 추가(+ Add knowledge)** 를 선택합니다.
 
 1. **Dataverse**를 선택합니다.
 
@@ -236,7 +236,7 @@ lab:
 
 1. **용어 입력(Enter term)** 에 **`Incidental expenses`(부대 경비)** 를 입력합니다.
 
-1. **설명 입력(Enter description)** 에 입력할 원본 영문 값은 `Minor, necessary business costs that arise in addition to a primary expense such as tips or fees.`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. **설명 입력(Enter description)** 에 다음 영문 또는 한국어 값 중 하나를 입력합니다.
 
    ```prompt
    Minor, necessary business costs that arise in addition to a primary expense such as tips or fees.
@@ -268,7 +268,7 @@ lab:
 
 1. **테스트(Test)** 창 위쪽에서 **새 테스트 세션 시작(Start new test session)** 아이콘 **+**를 선택합니다.
 
-1. 원본 영문 입력 값은 `What can I claim for expenses?`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력하여 제출합니다.
+1. 다음 영문 또는 한국어 질문 중 하나를 입력하여 제출합니다.
 
    ```prompt
    What can I claim for expenses?
@@ -284,7 +284,7 @@ lab:
 
 1. **테스트(Test)** 창 위쪽에서 **새 테스트 세션 시작(Start new test session)** 아이콘 **+**를 선택합니다.
 
-1. 원본 영문 입력 값은 `What is the total amount of all expense claims for each category?`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. 다음 영문 또는 한국어 질문 중 하나를 입력합니다.
 
    ```prompt
    What is the total amount of all expense claims for each category?
@@ -300,7 +300,7 @@ lab:
 
 1. **테스트(Test)** 창 위쪽에서 **새 테스트 세션 시작(Start new test session)** 아이콘 **+**를 선택합니다.
 
-1. 원본 영문 입력 값은 `What are the limits for incidental expenses?`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. 다음 영문 또는 한국어 질문 중 하나를 입력합니다.
 
    ```prompt
    What are the limits for incidental expenses?
@@ -371,7 +371,7 @@ lab:
 
 1. **테스트(Test)** 창 위쪽에서 **새 테스트 세션 시작(Start new test session)** 아이콘 **+**를 선택합니다.
 
-1. 원본 영문 입력 값은 `What is the current exchange rate between the U.S. dollar and the euro?`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. 다음 영문 또는 한국어 질문 중 하나를 입력합니다.
 
    ```prompt
    What is the current exchange rate between the U.S. dollar and the euro?
@@ -409,7 +409,7 @@ lab:
 
 1. **테스트(Test)** 창 위쪽에서 **새 테스트 세션 시작(Start new test session)** 아이콘 **+**를 선택합니다.
 
-1. 원본 영문 입력 값은 `What is the current exchange rate between the U.S. dollar and the euro?`입니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+1. 다음 영문 또는 한국어 질문 중 하나를 입력합니다.
 
    ```prompt
    What is the current exchange rate between the U.S. dollar and the euro?

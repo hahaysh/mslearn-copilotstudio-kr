@@ -485,7 +485,15 @@ lab:
 
 1. **토픽 이름 지정(Name your topic)** 텍스트 상자에 **`Priority Tasks`(우선순위 작업)**를 입력합니다.
 
-1. **다음을 수행하는 토픽 만들기(Create a topic to...)** 텍스트 상자에 **`Ask the user to choose a priority from a list containing High, Medium, and Low`(High, Medium, Low가 포함된 목록에서 우선순위를 선택하도록 사용자에게 요청)**를 입력합니다.
+1. **다음을 수행하는 토픽 만들기(Create a topic to...)** 텍스트 상자에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+
+   ```prompt
+   Ask the user to choose a priority from a list containing High, Medium, and Low
+   ```
+
+   ```prompt
+   High, Medium, Low가 포함된 목록에서 우선순위를 선택하도록 사용자에게 요청합니다.
+   ```
 
 1. **만들기(Create)**를 선택합니다.
 
@@ -493,7 +501,7 @@ lab:
 
 1. 질문 노드 아래쪽에서 **Priority** 변수를 선택하여 **변수 속성(Variables properties)**을 엽니다.
 
-1. **사용법(Usage)**에서 **전역(모든 토픽에서 액세스 가능)(Global (any topic can access))**을 선택합니다.
+1. **사용량(Usage)**에서 **전역(모든 토픽에서 액세스 가능)(Global (any topic can access))**을 선택합니다.
 
    ![질문 노드의 전역 변수 스크린샷.](../media/variable-global.png)
 
@@ -515,12 +523,25 @@ lab:
 
 1. **추가 및 구성(Add and configure)**을 선택합니다.
 
-1. **세부 정보(Details)** 섹션의 **설명(Description)**에 **`Retrieves a list of tasks for a specified priority`(지정한 우선순위의 작업 목록 검색)**를 입력합니다.
+1. **세부 정보(Details)** 섹션의 **설명(Description)**을 입력합니다.
+
+```prompt
+Retrieves a list of tasks for a specified priority
+```
+
+```prompt
+지정한 우선순위의 작업 목록 검색
+```
+
+```text
+지정한 우선순위의 작업 목록 검색
+```
+
 
 1. **추가 세부 정보(Additional details)**를 펼친 후 다음 항목을 선택하거나 입력합니다.
 
-   - **이 도구를 사용할 수 있는 시기(When this tool may be used)**: 토픽 또는 에이전트에서 참조할 때만(Only when referenced by topics or agents)
-   - **실행하기 전에 최종 사용자에게 확인(Ask the end user before running)**: 아니요(No)
+   - **이 도구를 사용할 수 있는 경우(When this tool may be used)**: 토픽 또는 에이전트에서 참조하는 경우에만(Only when referenced by topics or agents)
+   - **실행하기 전에 최종 사용자에게 질문합니다(Ask the end user before running)**: 아니요(No)
    - **사용할 자격 증명(Credentials to use)**: 최종 사용자 자격 증명(End user credentials)
    - **설명(Description)**: *`Please sign in to retrieve tasks`(작업을 검색하려면 로그인하세요)*
 
@@ -552,9 +573,25 @@ lab:
 
 1. **지침(Instructions)** 섹션에서 **편집(Edit)**을 선택합니다.
 
-1. *# Skills* 섹션에 새 줄을 추가하고 `- Use the `를 입력한 다음 `/`를 입력하고 **`Priority Tasks`(우선순위 작업)** 토픽을 선택한 후 ` topic to get the task list.`를 입력합니다.
+1. *# Skills* 섹션에 새 줄을 추가하고 `- Use the `를 입력한 다음 `/`를 입력하고 **`Priority Tasks`(우선순위 작업)** 토픽을 선택한 후 ` topic to get the task list.`를 입력합니다. 완성되는 지침은 다음과 같습니다. 한국어 지침을 사용하는 경우에도 `<Priority Tasks>` 자리 표시자는 입력하지 않고 `/`를 사용하여 토픽 참조를 삽입합니다.
 
-1. *# Step-by-step instructions* 섹션의 **1. Analyze tasks** 아래에 새 줄을 추가하고 `- Use the `를 입력한 다음 `/`를 입력하고 **`Priority Tasks`(우선순위 작업)** 토픽을 선택한 후 ` topic to get the task list.`를 입력합니다.
+   ```prompt
+   - Use the <Priority Tasks> topic to get the task list.
+   ```
+
+   ```prompt
+   - <Priority Tasks> 토픽을 사용하여 작업 목록을 가져옵니다.
+   ```
+
+1. *# Step-by-step instructions* 섹션의 **1. Analyze tasks** 아래에 새 줄을 추가하고 `- Use the `를 입력한 다음 `/`를 입력하고 **`Priority Tasks`(우선순위 작업)** 토픽을 선택한 후 ` topic to get the task list.`를 입력합니다. 완성되는 지침은 다음과 같습니다. 한국어 지침을 사용하는 경우에도 `<Priority Tasks>` 자리 표시자는 입력하지 않고 `/`를 사용하여 토픽 참조를 삽입합니다.
+
+   ```prompt
+   - Use the <Priority Tasks> topic to get the task list.
+   ```
+
+   ```prompt
+   - <Priority Tasks> 토픽을 사용하여 작업 목록을 가져옵니다.
+   ```
 
 1. **저장(Save)**을 선택합니다.
 
@@ -566,11 +603,15 @@ lab:
 
 1. **테스트(Test)** 창 위쪽에서 **새 테스트 세션 시작(Start new test session)** 아이콘 **+**를 선택합니다.
 
-1. **대화 시작(Conversation Start)** 메시지가 표시되면 에이전트가 대화를 시작합니다. 응답으로 다음 내용을 입력하여 만든 토픽을 트리거해 봅니다.
+1. **대화 시작(Conversation Start)** 메시지가 표시되면 에이전트가 대화를 시작합니다. 다음 영문 또는 한국어 프롬프트 중 하나를 입력하여 만든 토픽을 트리거합니다.
 
-   `Analyze the task list`
+   ```prompt
+   Analyze the task list
+   ```
 
-   위 입력은 "작업 목록을 분석하세요"를 의미합니다.
+   ```prompt
+   작업 목록을 분석하세요.
+   ```
 
 1. **`Priority Tasks`(우선순위 작업)** 토픽이 표시됩니다.
 

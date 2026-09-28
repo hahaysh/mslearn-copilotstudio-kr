@@ -234,7 +234,15 @@ lab:
 
 1. **제목(Title)**에 **`Health`(건강)**를 입력합니다.
 
-1. **프롬프트(Prompt)**에 **`What health assistance programs are available for me?`(어떤 건강 지원 프로그램을 이용할 수 있나요?)**를 입력합니다.
+1. **프롬프트(Prompt)**에 다음 영문 또는 한국어 프롬프트 중 하나를 입력합니다.
+
+   ```prompt
+   What health assistance programs are available for me?
+   ```
+
+   ```prompt
+   어떤 건강 지원 프로그램을 이용할 수 있나요?
+   ```
 
 1. **저장(Save)**을 선택합니다.
 

@@ -406,7 +406,15 @@ lab:
 
 1. **지침(Instructions)** 섹션에서 **편집(Edit)** 을 선택합니다.
 
-1. 에이전트 지침의 *# Skills* 아래에 `Use the`를 입력한 다음 `/`를 입력하고 **Estimate Repair** 토픽을 선택한 후 `when a repair estimate is required.`를 입력합니다.
+1. 에이전트 지침의 *# Skills* 아래에 `Use the`를 입력한 다음 `/`를 입력하고 **Estimate Repair** 토픽을 선택한 후 `when a repair estimate is required.`를 입력합니다. 완성되는 지침은 다음과 같습니다. 한국어 지침을 사용하는 경우에도 `<Estimate Repair>` 자리 표시자는 입력하지 않고 `/`를 사용하여 토픽 참조를 삽입합니다.
+
+   ```prompt
+   Use the <Estimate Repair> topic when a repair estimate is required.
+   ```
+
+   ```prompt
+   수리 견적이 필요한 경우 <Estimate Repair> 토픽을 사용합니다.
+   ```
 
    ![에이전트 지침에서 토픽을 참조하는 스크린샷.](../media/add-topic-to-instructions.png)
 
@@ -448,7 +456,15 @@ lab:
 
    대화 흐름이 **Estimate Repair** 토픽으로 돌아가는지 확인합니다.
 
-1. **What date and time do you want to book the repair estimate?** 프롬프트에 `Tomorrow 10:00 AM`을 입력합니다.
+1. **What date and time do you want to book the repair estimate?** 프롬프트에 다음 영문 또는 한국어 응답 중 하나를 입력합니다.
+
+   ```prompt
+   Tomorrow 10:00 AM
+   ```
+
+   ```prompt
+   내일 오전 10시
+   ```
 
    에이전트가 수리 견적 일정이 예약되었다는 확인 메시지로 응답합니다.
 

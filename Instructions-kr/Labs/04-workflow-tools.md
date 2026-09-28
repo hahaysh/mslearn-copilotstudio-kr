@@ -458,7 +458,14 @@ lab:
 
 1. *응답할 값 입력(Enter a value to respond with)*에서 필드를 선택한 다음 **식(Expression)**(**fx**) 옵션을 선택합니다. 반환된 행을 **텍스트(Text)** 출력 형식과 일치하는 텍스트로 변환하려면 다음 식을 입력한 후 **추가(Add)**를 선택합니다.
 
-   `string(outputs('List_rows_present_in_a_table')?['body/value'])`
+   ```prompt
+   string(outputs('List_rows_present_in_a_table')?['body/value'])
+   ```
+   
+   ```prompt
+   string(outputs('테이블에_있는_행_나열')?['body/value'])
+   ```
+   
 
 1. 페이지 오른쪽 위 근처에서 **초안 저장(Save draft)**을 선택합니다.
 

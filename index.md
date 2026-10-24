@@ -8,7 +8,8 @@ layout: home
 
 PL-7008 Microsoft Copilot Studio 한국어 실습 가이드는 다음과 같습니다.
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions-kr/Labs/'" %}
+{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions-kr/Labs2/'" | sort: "path" %}
 {% for activity in labs  %}
-- [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }})
+{% assign activity_title = activity.content | markdownify | strip_html | strip | newline_to_br | split: '<br />' | first | strip %}
+- [{{ activity_title }}]({{ site.github.url }}{{ activity.url }})
 {% endfor %}
